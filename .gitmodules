@@ -1,0 +1,30 @@
+[submodule "lua---camera"]
+	path = lua---camera
+	url = https://github.com/clementfarabet/lua---camera.git
+[submodule "lua---ffmpeg"]
+	path = lua---ffmpeg
+	url = https://github.com/clementfarabet/lua---ffmpeg.git
+[submodule "lua---image"]
+	path = lua---image
+	url = https://github.com/clementfarabet/lua---image.git
+[submodule "lua---inline-C"]
+	path = lua---inline-C
+	url = https://github.com/clementfarabet/lua---inline-C.git
+[submodule "lua---mattorch"]
+	path = lua---mattorch
+	url = https://github.com/clementfarabet/lua---mattorch.git
+[submodule "lua---nnx"]
+	path = lua---nnx
+	url = https://github.com/clementfarabet/lua---nnx.git
+[submodule "lua---sys"]
+	path = lua---sys
+	url = https://github.com/clementfarabet/lua---sys.git
+[submodule "lua---xlua"]
+	path = lua---xlua
+	url = https://github.com/clementfarabet/lua---xlua.git
+[submodule "lua4torch"]
+	path = lua4torch
+	url = https://github.com/clementfarabet/lua4torch.git
+[submodule "torch"]
+	path = torch
+	url = https://github.com/andresy/torch.git
