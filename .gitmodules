@@ -28,3 +28,6 @@
 [submodule "torch"]
 	path = torch
 	url = https://github.com/andresy/torch.git
+[submodule "lua---imgraph"]
+	path = lua---imgraph
+	url = https://github.com/clementfarabet/lua---imgraph
