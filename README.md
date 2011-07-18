@@ -94,7 +94,7 @@ what it does:
 ## Checkout the demos & tutorials
 
 ``` sh
-$ cd torch7-demos
+$ cd demos
 ``` 
 
 this repo contains demos, and tutorials to get started. Looking
