@@ -31,3 +31,6 @@
 [submodule "lua---imgraph"]
 	path = lua---imgraph
 	url = https://github.com/clementfarabet/lua---imgraph
+[submodule "torch7-demos"]
+	path = torch7-demos
+	url = https://github.com/clementfarabet/torch7-demos
