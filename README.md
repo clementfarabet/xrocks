@@ -81,3 +81,12 @@ what it does:
 ``` lua
 > imgraph.testme()
 ```
+
+## Checkout the demos & tutorials
+
+``` sh
+$ cd torch7-demos
+``` 
+
+this repo contains demos, and tutorials to get started. Looking
+at the code is the best way to get there !
