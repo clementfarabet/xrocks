@@ -37,15 +37,24 @@ $ cd lua4torch
 $ make install PREFIX=/usr/local
 ```
 
-3/ Packages:
+3/ Torch7
 
-You can either install each package from the server:
+The best way to install Torch7 is to let Luarocks do it:
+
+``` sh
+$ luarocks install torch
+```
+
+4/ Packages:
+
+Like for Torch7, you can either install each package from the 
+server:
 
 ``` sh
 $ luarocks install imgraph
 ```
 
-or build them locally, if you want to develop on the sources:
+or build them locally, if you are planning to work on the sources:
 
 ``` sh
 $ cd lua---imgraph
