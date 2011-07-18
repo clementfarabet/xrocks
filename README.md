@@ -99,3 +99,26 @@ $ cd demos
 
 this repo contains demos, and tutorials to get started. Looking
 at the code is the best way to get there !
+
+## Developers
+
+If you would like to develop one of the submodules you should check
+out the master branch of that module: 
+
+``` sh
+$ cd lua---nnx
+$ git checkout master
+$ git pull
+```
+
+This puts you at the head of development for that submodule, and in
+the proper branch to commit any changes you make to the git repository
+for that module.  To check out all the submodules in developer mode we
+have added the script :
+
+``` sh
+$ ./devpullall.sh
+```
+
+Which does the above checkout master + pull for all submodules.
+
