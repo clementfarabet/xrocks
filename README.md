@@ -117,8 +117,22 @@ for that module.  To check out all the submodules in developer mode we
 have added the script :
 
 ``` sh
-$ ./devpullall.sh
+$ ./gitall.sh
 ```
+  a simple command to repeat a git command to all subdirectories
 
-Which does the above checkout master + pull for all submodules.
+syntax:
 
+  ./gitall.sh <command(s)>
+
+eg:
+
+ + switch all submodules to the master branch
+  ./gitall.sh checkout master
+ + pull updates for all submodules
+  ./gitall.sh pull
+ + other useful
+  ./gitall.sh status
+  ./gitall.sh diff
+
+WARNING: will blindly send command(s) to git in each directory
