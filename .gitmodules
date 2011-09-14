@@ -34,3 +34,9 @@
 [submodule "demos"]
 	path = demos
 	url = https://github.com/clementfarabet/torch7-demos
+[submodule "lua---parallel"]
+	path = lua---parallel
+	url = https://github.com/clementfarabet/lua---parallel.git
+[submodule "lua---opencv"]
+	path = lua---opencv
+	url = https://github.com/marcoscoffier/lua---opencv.git
