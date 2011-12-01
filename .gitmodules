@@ -40,3 +40,9 @@
 [submodule "lua---opencv"]
 	path = lua---opencv
 	url = https://github.com/marcoscoffier/lua---opencv.git
+[submodule "lua---opengm"]
+	path = lua---opengm
+	url = https://github.com/clementfarabet/lua---opengm.git
+[submodule "neuflow"]
+	path = neuflow
+	url = https://github.com/clementfarabet/neuflow.git
