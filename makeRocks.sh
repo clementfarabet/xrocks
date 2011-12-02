@@ -44,6 +44,15 @@ tar cvzf $MOD.tgz $MOD
 luarocks pack $MOD/$MOD.rockspec
 rm -r $MOD
 
+NAME=lushmat
+VER=1.0-1
+MOD=$NAME-$VER
+cp -r ../lua---$NAME $MOD
+rm -rf $MOD/.git*
+tar cvzf $MOD.tgz $MOD
+luarocks pack $MOD/$MOD.rockspec
+rm -r $MOD
+
 NAME=opengm
 VER=1.0-1
 MOD=$NAME-$VER

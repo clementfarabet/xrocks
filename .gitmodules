@@ -46,3 +46,6 @@
 [submodule "neuflow"]
 	path = neuflow
 	url = https://github.com/clementfarabet/neuflow.git
+[submodule "lua---lushmat"]
+	path = lua---lushmat
+	url = https://github.com/clementfarabet/lua---lushmat
