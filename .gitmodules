@@ -49,3 +49,6 @@
 [submodule "lua---lushmat"]
 	path = lua---lushmat
 	url = https://github.com/clementfarabet/lua---lushmat
+[submodule "optim"]
+	path = optim
+	url = https://github.com/koraykv/optim
