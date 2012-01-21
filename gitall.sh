@@ -36,7 +36,7 @@ fi
 for d in */ 
 do echo '**' \"git $*\" in $d ...
 cd $d 
-if [ -e .git/ ] 
+if [ -e .git ] 
 then
     git $*
 fi
