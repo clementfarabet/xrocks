@@ -30,7 +30,7 @@ On Mac OS (Leopard, or more), using [Homebrew](http://mxcl.github.com/homebrew/)
 $ brew install git readline cmake wget qt
 ```
 
-2/ Lua 5.1 + Luarocks + xLua:
+2/ Lua 5.1 + Luarocks:
 
 ``` sh
 $ cd lua4torch
@@ -57,16 +57,16 @@ $ luarocks install imgraph
 or build them locally, if you are planning to work on the sources:
 
 ``` sh
-$ cd lua---imgraph
+$ cd imgraph
 $ luarocks make
 ```
 
 ## Use the framework
 
-First run xlua (an alias to qlua -lxlua), and load a package:
+First run torch, and load a package:
 
 ``` sh
-$ xlua
+$ torch
 ``` 
 
 ``` lua
@@ -74,7 +74,8 @@ $ xlua
 ```
 
 Once loaded, tab-completion will help you navigate through the
-library:
+library (note: tab-completion will only work if you have
+Qt4 and readline):
 
 ``` lua
 > imgraph. + TAB
@@ -98,7 +99,7 @@ $ cd demos
 ``` 
 
 this repo contains demos, and tutorials to get started. Looking
-at the code is the best way to get there !
+at the code is the best way to get there!
 
 ## Developers
 
@@ -106,7 +107,7 @@ If you would like to develop one of the submodules you should check
 out the master branch of that module: 
 
 ``` sh
-$ cd lua---nnx
+$ cd nnx
 $ git checkout master
 $ git pull
 ```
