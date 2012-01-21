@@ -13,3 +13,42 @@
 [submodule "optim"]
 	path = optim
 	url = https://github.com/koraykv/optim
+[submodule "opencv"]
+	path = opencv
+	url = https://github.com/marcoscoffier/lua---opencv.git
+[submodule "lushmat"]
+	path = lushmat
+	url = https://github.com/clementfarabet/lua---lushmat.git
+[submodule "opengm"]
+	path = opengm
+	url = https://github.com/clementfarabet/lua---opengm.git
+[submodule "parallel"]
+	path = parallel
+	url = https://github.com/clementfarabet/lua---parallel.git
+[submodule "sys"]
+	path = sys
+	url = https://github.com/clementfarabet/lua---sys.git
+[submodule "xlua"]
+	path = xlua
+	url = https://github.com/clementfarabet/lua---xlua.git
+[submodule "nnx"]
+	path = nnx
+	url = https://github.com/clementfarabet/lua---nnx.git
+[submodule "mattorch"]
+	path = mattorch
+	url = https://github.com/clementfarabet/lua---mattorch.git
+[submodule "inline"]
+	path = inline
+	url = https://github.com/clementfarabet/lua---inline-C.git
+[submodule "image"]
+	path = image
+	url = https://github.com/clementfarabet/lua---image.git
+[submodule "imgraph"]
+	path = imgraph
+	url = https://github.com/clementfarabet/lua---imgraph.git
+[submodule "camera"]
+	path = camera
+	url = https://github.com/clementfarabet/lua---camera.git
+[submodule "ffmpeg"]
+	path = ffmpeg
+	url = https://github.com/clementfarabet/lua---ffmpeg.git
