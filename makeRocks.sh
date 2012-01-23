@@ -71,6 +71,16 @@ tar cvzf $MOD.tgz $MOD
 luarocks pack $MOD/$MOD.rockspec
 rm -r $MOD
 
+NAME=allreduce
+DIR=vowpal_wabbit
+VER=1.0-1
+MOD=$NAME-$VER
+cp -r ../$DIR $MOD
+rm -rf $MOD/.git*
+tar cvzf $MOD.tgz $MOD
+luarocks pack $MOD/$MOD.rockspec
+rm -r $MOD
+
 NAME=opencv
 VER=1.0-1
 MOD=$NAME-$VER
