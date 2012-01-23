@@ -55,3 +55,6 @@
 [submodule "unsup"]
 	path = unsup
 	url = https://github.com/koraykv/unsup.git
+[submodule "vowpal_wabbit"]
+	path = vowpal_wabbit
+	url = https://github.com/clementfarabet/vowpal_wabbit.git
