@@ -1,5 +1,5 @@
 
-# This repo is a container for all our Lua rocks
+# This repo is a container for all my Torch7 packages.
 
 Note: all these packages used to be distributed into a big messy repo 
 called XLearn.
@@ -14,9 +14,9 @@ $ git submodule init
 $ git submodule update
 ```
 
-## Install the whole framework
+## Install
 
-1/ third-party libraries:
+1/ Torch7 and dependencies:
 
 On Linux (Ubuntu > 9.04):
 
@@ -30,38 +30,36 @@ On Mac OS (Leopard, or more), using [Homebrew](http://mxcl.github.com/homebrew/)
 $ brew install git readline cmake wget qt
 ```
 
-2/ Lua 5.1 + Luarocks:
+Then on both platforms:
 
 ``` sh
-$ cd lua4torch
-$ make install PREFIX=/usr/local
+$ git clone https://github.com/andresy/torch
+$ cd torch
+$ mkdir build; cd build
+$ cmake ..
+$ make
+$ [sudo] make install
 ```
 
-3/ Torch7
+2/ Packages:
 
-The best way to install Torch7 is to let Luarocks do it:
+Once Torch7 is installed, it comes with a package manager
+that you can use to either install packages from the web:
 
 ``` sh
-$ luarocks install torch
+$ torch-pkg install pkg-name
+$ torch-pkg --help
 ```
 
-4/ Packages:
-
-Like for Torch7, you can either install each package from the 
-server:
+or build them locally, if you are planning to work on the 
+sources:
 
 ``` sh
-$ luarocks install imgraph
+$ cd pkg-name
+$ torch-pkg deploy
 ```
 
-or build them locally, if you are planning to work on the sources:
-
-``` sh
-$ cd imgraph
-$ luarocks make
-```
-
-## Use the framework
+## Use Torch7
 
 First run torch, and load a package:
 
