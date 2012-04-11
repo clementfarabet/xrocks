@@ -61,3 +61,6 @@
 [submodule "fex"]
 	path = fex
 	url = https://github.com/koraykv/fex
+[submodule "debugger"]
+	path = debugger
+	url = https://github.com/clementfarabet/lua---debugger.git
