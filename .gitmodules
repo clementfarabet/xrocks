@@ -67,15 +67,3 @@
 [submodule "nng"]
 	path = nng
 	url = https://github.com/clementfarabet/lua---nng
-[submodule "csv"]
-	path = csv
-	url = https://github.com/clementfarabet/lua---nng
-[submodule "json"]
-	path = json
-	url = https://github.com/clementfarabet/lua---nng
-[submodule "liuflow"]
-	path = liuflow
-	url = https://github.com/clementfarabet/lua---nng
-[submodule "videograph"]
-	path = videograph
-	url = https://github.com/clementfarabet/lua---nng
