@@ -79,3 +79,6 @@
 [submodule "videograph"]
 	path = videograph
 	url = https://github.com/clementfarabet/videograph
+[submodule "webterm"]
+	path = webterm
+	url = https://github.com/clementfarabet/thwebterm
