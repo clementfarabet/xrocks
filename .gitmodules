@@ -82,3 +82,6 @@
 [submodule "webterm"]
 	path = webterm
 	url = https://github.com/clementfarabet/thwebterm
+[submodule "kex"]
+	path = kex
+	url = https://github.com/koraykv/kex
